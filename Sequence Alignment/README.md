@@ -2,8 +2,6 @@
 
 The Algorithm of Sequence alignment is one of the most significant algorithms in bioinformatics. This file provides you with some instructions about how my Python code works, including what kind of data need you to prepare, what parameters need to be given and so on.
 
-[toc]
-
 ## Needleman_Wunsch.py
 
 This code is implemented when you want to perform a whole alignment of two sequence. Needleman-Wunsch algorithm is a very classical one to accomplish this job.
