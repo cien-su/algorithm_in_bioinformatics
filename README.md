@@ -1,2 +1,2 @@
-# algorithm_in_bioinformatics
+# Algorithm_in_Bioinformatics
 To realize algorithm using Python when I study bioinformatics principle
