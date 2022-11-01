@@ -9,7 +9,7 @@ This repository provides many algorithms occurred in bioinformatics using Python
 
 In this repository, all algorithms are separated into different folders (keep updating): 
 
-- Sequence Match
+- Sequence Alignment
 - ...
 
 The explanation file of each algorithm is placed in the corresponding folders. If you have any questions, feel free to contact with me.
