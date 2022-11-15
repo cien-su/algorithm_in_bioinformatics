@@ -165,14 +165,14 @@ def matrix_visual(res_matrix: np.array, l1: list, l2: list, index: list, plot_va
     # set the axis
     l1.insert(0, '0')
     l2.insert(0, '0')
-    ax.set_xticks(np.arange(0, len(l2)), minor=False)
-    ax.set_yticks(np.arange(0, len(l1)), minor=False)
+    ax.set_xticks(np.arange(0, len(l1)), minor=False)
+    ax.set_yticks(np.arange(0, len(l2)), minor=False)
     ax.xaxis.set_ticks_position('top')
     ax.xaxis.set_label_position('top')
-    ax.set_xticklabels(l2)
-    ax.set_yticklabels(l1)
-    plt.xlabel("Sequence 2")
-    plt.ylabel("Sequence 1")
+    ax.set_xticklabels(l1)
+    ax.set_yticklabels(l2)
+    plt.xlabel("Sequence 1")
+    plt.ylabel("Sequence 2")
     # check if plot_val is True
     if plot_val:
         for i in range(len(l2)):
